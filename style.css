@@ -1,0 +1,26 @@
+.header__img {
+width: 166px;
+height: 51px;
+}
+
+.header__imgburger {
+	position: absolute;
+	width: 24px;
+	height: 15px;
+}
+
+.main__imgbackground {
+	width: 1514px;
+	height: 467px;
+	opacity: 0.1;
+}
+
+.main__imgspeed {
+	width: 46px;
+	height: 34.13px;
+}
+
+.main__imgcar {
+	width: 968px;
+	height: 450px;
+}
