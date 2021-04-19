@@ -1,14 +1,15 @@
 body {
 	max-width: 1440px;
 	min-width: 375px;
-	margin: 0;
+	margin: auto;
+	position: relative;
 }
 
 .header {
 	margin-top: 24px;
 	max-width: 1337px;
-	min-width: 352px
-	margin-left: 42px;
+	min-width: 352px;
+	transform: translateX(42px);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
