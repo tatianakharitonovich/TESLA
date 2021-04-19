@@ -1,26 +1,74 @@
+body {
+	max-width: 1440px;
+	min-width: 375px;
+	margin: 0;
+}
+
+.header {
+	margin-top: 24px;
+	max-width: 1337px;
+	min-width: 352px
+	margin-left: 42px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .header__img {
-width: 166px;
-height: 51px;
+	margin-right: 258px;
+	max-width: 166px;
+	max-height: 51px;
 }
 
-.header__imgburger {
+.header__nav {
+	width: 489px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 221px;
+}
+
+.header__link {
+	cursor: pointer;
+}
+
+.header__link_red {
+	color: #E51937;
+	position: relative;
+}
+
+.header__link_red::before {
+	content: '';
 	position: absolute;
+	left: 1px;
+	bottom: -10px;
+	background-image: url(img/Vector1.png);
+	background-size: cover;
+	width: 60px;
+	height: 2px;
+}
+
+.header__secbuttom {
+	width: 203px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header__button {
+	cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+}
+
+.header__buttonimg {
+	background-image: url(img/Vector.png);
+	background-size: cover;
 	width: 24px;
-	height: 15px;
+	height: 15px; 
 }
 
-.main__imgbackground {
-	width: 1514px;
-	height: 467px;
-	opacity: 0.1;
-}
 
-.main__imgspeed {
-	width: 46px;
-	height: 34.13px;
-}
 
-.main__imgcar {
-	width: 968px;
-	height: 450px;
-}
+
