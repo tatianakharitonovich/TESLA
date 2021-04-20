@@ -103,6 +103,30 @@ body {
 	.header__nav_add {
 		justify-content: flex-end;
 	}	
+}
+
+.main__blockimg {
+	background-image: url(img/Tesla-Wordmark-Red.png);
+	background-size: 1514px 467px;
+	background-position: -74px 34px;
+}
+
+.main__title, .main__text {
+	margin: auto;
+	text-align: center;
+}
+
+.main__title {
+	padding-top: 34px;
+}
+	
+.main__text {
+	transform: translateY(-9px);
+	padding-bottom: 17px;
+}
+
+.main__imgcar {
+	transform: translateX(199px);
 }	
 
 
