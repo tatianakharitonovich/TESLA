@@ -17,3 +17,19 @@
 		font-size: 9px;
 	}
 }
+
+.main__title {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 90px;
+	line-height: 110px;
+}
+
+.main__text {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+}
