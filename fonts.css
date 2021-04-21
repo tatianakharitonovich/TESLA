@@ -33,3 +33,91 @@
 	font-size: 15px;
 	line-height: 18px;
 }
+
+.main__textopport {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 17px;
+}
+
+.main__textopport_middle {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 10px;
+}
+
+.main__textopport_small {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 10px;
+}
+
+.main__textbutton, .main__button {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	text-transform: uppercase;
+}
+
+.main__button {
+	color: #E51937;
+}
+
+@media (max-width: 768px) {
+	.main__textopport {
+		font-size: 50px;
+		line-height: 17px;
+	}
+
+	.main__textbutton, .main__button {
+		font-size: 16px;
+		line-height: 20px;
+		color: #E51937;
+	}
+
+	.main__button {
+		color: #FFFFFF;
+	}
+}
+
+@media (max-width: 375px) {
+	.main__title {
+		font-size: 50px;
+		line-height: 61px;
+	}
+
+	.main__text {
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	.main__textopport {
+		font-size: 27px;
+		line-height: 17px;
+	}
+
+	.main__textopport_middle {
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.main__textopport_small {
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 10px;
+	}
+
+	.main__textbutton, .main__button {
+		font-size: 13px;
+		line-height: 16px;
+}
+
