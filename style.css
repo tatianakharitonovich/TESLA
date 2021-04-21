@@ -108,12 +108,14 @@ body {
 .main__blockimg {
 	background-image: url(img/Tesla-Wordmark-Red.png);
 	background-size: 105%;
+	background-repeat: no-repeat;
 	background-position: -74px 34px;
 }
 
 .main__backcolor {
 	background-color: rgba(255,255,255,0.9);
 	background-size: 105%;
+	background-repeat: no-repeat;
 	background-position: -74px 34px;
 }
 
