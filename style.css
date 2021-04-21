@@ -107,7 +107,13 @@ body {
 
 .main__blockimg {
 	background-image: url(img/Tesla-Wordmark-Red.png);
-	background-size: 1514px 467px;
+	background-size: 105%;
+	background-position: -74px 34px;
+}
+
+.main__backcolor {
+	background-color: rgba(255,255,255,0.9);
+	background-size: 105%;
 	background-position: -74px 34px;
 }
 
@@ -127,6 +133,212 @@ body {
 
 .main__imgcar {
 	transform: translateX(199px);
-}	
+}
 
+.main__bottomsec {
+	width: 54.58%;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.main__blockopport, .main__blocktest {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main__blockopport {
+	width: 47.08%;
+}
+
+.main__blocktest {
+	width: 39.76%;
+}
+
+.main__speed, .main__power, .main__testdrive {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main__imgspeed {
+	transform: translateX(-12px);
+}
+
+.main__imgroаd {
+	transform: translateX(-12px);
+}
+
+.main__imgwheel {
+	transform: translateX(-7px);
+}
+
+.main__button {
+	cursor: pointer;
+	background-color: transparent;
+	padding: 9px 41px;
+	border: 2px solid #E51937;
+}
+
+@media (max-width: 1280px) {
+	.main__blockimg {
+		background-size: 107%;
+		background-repeat: no-repeat;
+		background-position: -50px 93px;
+	}
+	.main__backcolor {
+		background-size: 107%;
+		background-repeat: no-repeat;
+		background-position: -27px 93px;
+	}
+
+	.main__imgcar {
+		transform: translateX(75px);
+		width: 77%;
+	}
+
+	.main__bottomsec {
+		width: 63.45%;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.main__blockopport {
+		width: 100%;
+	}
+
+	.main__blocktest {
+		width: 85.83%;
+	}
+}
+
+@media (max-width: 768px) {
+	.main__blockimg {
+		background-size: 107%;
+		background-repeat: no-repeat;
+		background-position: -27px 152px;
+	}
+	.main__backcolor {
+		background-size: 107%;
+		background-repeat: no-repeat;
+		background-position: -27px 152px;
+	}
+
+	.main__title {
+		padding-top: 56px;
+	}
+
+	.main__text {
+		padding-bottom: 78px;
+	}
+
+	.main__imgcar {
+		transform: translateX(48px);
+		width: 87.5%;
+	}
+
+	.main__bottomsec {
+		width: 63.45%;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.main__blockopport {
+		width: 100%;
+	}
+
+	.main__blocktest {
+		width: 85.83%;
+	}
+
+	.main__imgwheel {
+		position: relative;
+		opacity: 0.5;
+	}
+
+	.main__imgwheel::before {
+		content: '';
+		position: absolute;
+		left: -4px;
+		bottom: -4px;
+		background-image: url(img/steering-wheel-red.png);
+		background-size: cover;
+		width: 138%;
+		height: 138%;
+		z-index: 1;
+	}
+
+	.main__button {
+		background-color: #E51937;
+		padding: 16px 62px;
+		border-style: solid #E51937;
+	}
+}
+
+@media (max-width: 375px) {
+	.main__blockimg {
+		background-size: 119.47%;
+		background-position: -41px 85px;
+	}
+	.main__backcolor {
+		background-size: 119.47%;
+		background-position: -41px;
+	}
+
+	.main__title {
+		padding-top: 6px;
+	}
+
+	.main__text {
+		padding-bottom: 40px;
+	}
+
+	.main__imgcar {
+		transform: translateX(9px);
+		width: 95.2%;
+	}
+
+	.main__bottomsec {
+		width: 75.47%;
+	}
+
+	.main__blockopport {
+		width: 100%;
+	}
+
+	.main__blocktest {
+		width: 107%;
+	}
+
+	.main__imgwheel {
+		position: relative;
+		opacity: 0.5;
+	}
+
+	.main__imgwheel::before {
+		content: '';
+		position: absolute;
+		left: -4px;
+		bottom: -4px;
+		background-image: url(img/steering-wheel-red.png);
+		background-size: cover;
+		width: 138%;
+		height: 138%;
+		z-index: 1;
+	}
+
+	.main__button {
+		padding: 9px 41px;		
+	}
+}
 
