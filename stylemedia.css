@@ -183,6 +183,18 @@
 		width: 99%;
 	}
 
+	.main__imgwheel_ip {
+		transform: translateX(-7px);
+	}
+
+	.main__imgspeed_ip {
+		transform: translateX(-16px);
+	}
+
+	.main__imgroаd_ip {
+		transform: translateX(-12px);
+	}
+
 	.main__button {
 		padding: 9px 41px;		
 	}
