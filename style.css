@@ -41,7 +41,8 @@ body {
 	left: 1px;
 	bottom: -10px;
 	background-image: url(img/Vector1.png);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 	width: 100%;
 	height: 2px;
 }
@@ -146,10 +147,87 @@ body {
 	border: 2px solid #E51937;
 }
 
-.main__button:hover {
+.main__button:hover, .main__buttondown:hover {
 	transform: scale(1.1);
+}
+
+.main__buttondown {
+	cursor: pointer;
+	display: block;
+	background-color: transparent;
+	border-style: none;
+	background-image: url(img/cursor.png);
+	background-size: cover;
+	width: 34px;
+	height: 18px;
+	margin: auto;
+}
+
+.main__section_middle {
+	width: 100%;
+	transform: translateY(37px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: end; 
+}
+
+.main__blockimg_middle {
+	width: 69.5%;
+	height: 900px;
+	background-image: url(img/2013-tesla-model-s-cockpit.png);
+	background-size: 127%;
+	background-repeat: no-repeat;
+	background-position: 0px 56px;
+}
+
+.main__subtitle {
+	padding-left: 80px; 
+}
+
+.main__section_dis {
+	width: 30.5%;
+	height: 900px;
+	background-color: #E51937;
+}
+
+.main__subsubtitle {
+	margin-top: 51px;
+	margin-left: 52px;
+	margin-bottom: 11px;
+}
+
+.main__textdis {
+	margin-top: 11px;
+	margin-left: 52px;
+	margin-right: 72px;
 }	
 
+.main__disdisplay, .main__wifi, .main__cargospace, .main__order {
+	transform: translateX(52px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
 
+.main__disdisplay {
+	width: 42.5%;
+}
 
+.main__wifi {
+	width: 53.86%;
+}
 
+.main__cargospace {
+	width: 45.9%;
+}
+
+.main__order {
+	width: 78.86%;
+	transform: translate(52px, 140px);
+}
+
+.main__button_white {
+	border: 2px solid #FFFFFF;
+}
