@@ -55,7 +55,15 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
-	line-height: 10px;
+	line-height: 3px;
+}
+
+.main__textopport_white, .main__textopport_middle_white, .main__textopport_small_white, .main__textbutton_white {
+	color: #FFFFFF;
+}
+
+.main__textopport_middle_white {
+	line-height: 18px;
 }
 
 .main__textbutton, .main__button {
@@ -69,6 +77,10 @@
 
 .main__button {
 	color: #E51937;
+}
+
+.main__button_white {
+	color: #FFFFFF;
 }
 
 @media (max-width: 768px) {
@@ -119,5 +131,33 @@
 	.main__textbutton, .main__button {
 		font-size: 13px;
 		line-height: 16px;
+	}
+}
+
+.main__subtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 70px;
+	line-height: 85px;
+	color: #E51937;
+}
+
+.main__subsubtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 37px;
+	color: #FFFFFF;
+}
+
+.main__textdis {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
 }
 
