@@ -88,7 +88,7 @@
 	}
 }
 
-@media (max-width: 375px) {
+@media (max-width: 576px) {
 	.main__title {
 		font-size: 50px;
 		line-height: 61px;
