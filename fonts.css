@@ -165,4 +165,31 @@
 	line-height: 18px;
 	color: #FFFFFF;
 }
+.main__tabletext, .main__tabletext_small, .main__textsafety, .main__textsafety_small {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
 
+.main__tabletext_small {
+	font-size: 10px;
+	line-height: 12px;
+} 
+
+.main__textsafety {
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 30px;
+	text-transform: lowercase;
+}
+
+.main__textsafety_small {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 30px;
+	text-transform: lowercase;
+}
