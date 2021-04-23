@@ -89,13 +89,18 @@
 		line-height: 17px;
 	}
 
+	.main__textopport_white {
+		font-size: 35px;
+		line-height: 17px;
+	}
+
 	.main__textbutton, .main__button {
 		font-size: 16px;
 		line-height: 20px;
 		color: #E51937;
 	}
 
-	.main__button {
+	.main__button, .main__textbutton_white {
 		color: #FFFFFF;
 	}
 }
