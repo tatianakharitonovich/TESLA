@@ -147,7 +147,7 @@ body {
 	border: 2px solid #E51937;
 }
 
-.main__button:hover, .main__buttondown:hover {
+.main__button:hover, .main__buttondown:hover, .main__linkinfo:hover {
 	transform: scale(1.1);
 }
 
@@ -230,4 +230,8 @@ body {
 
 .main__button_white {
 	border: 2px solid #FFFFFF;
+}
+
+.main__linkinfo {
+	cursor: pointer;
 }
