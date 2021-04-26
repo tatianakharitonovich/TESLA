@@ -82,7 +82,7 @@
 
 	.main__section_middle {
 		width: 100%;
-		transform: translateY(64px);
+		transform: translateY(124px);
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
@@ -91,12 +91,19 @@
 
 	.main__blockimg_middle {
 		width: 100%;
-		background-image: url(img/2013-tesla-model-s-cockpit-ip.png);
-		background-size: 100%;
+	}
+
+	.main__imgdashboard {
+		display: none;
+	}
+
+	.main__imgdashboard_ip {
+		display: block;
 	}
 
 	.main__section_dis {
 		width: 100%;
+		height: 500px;
 	}
 
 	.main__blockdis {
@@ -215,6 +222,10 @@
 		display: none;
 	}
 
+	.main__section_dis {
+		height: 486px;
+	}
+
 	.main__button {
 		background-color: #E51937;
 		padding: 16px 62px;
@@ -279,8 +290,20 @@
 		transform: translateY(30px);
 	}
 
-	.main__blockimg_middle {
-		background-image: url(img/2013-tesla-model-s-cockpit-mob.png);
+	.main__section_middle {
+		transform: translateY(30px);
+	}
+
+	.main__imgdashboard_ip {
+		display: none;
+	}
+
+	.main__imgdashboard_mob {
+		display: block;
+	}
+
+	.main__section_dis {
+		height: 364px;
 	}
 
 	.main__subtitle, .main__blockcharacteristics, .main__order {
@@ -351,5 +374,9 @@
 
 	.main__imgspeed, .main__imgroаd, .main__imgspeed_ip, .main__imgroаd_ip, .main__imgwheel, .main__imgwheel_ip {
 		display: none;
+	}
+
+	.main__section_dis {
+		height: 304px;
 	}
 }
