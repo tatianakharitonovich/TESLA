@@ -1,6 +1,9 @@
-.header__link {
+body {
 	font-family: 'Montserrat', sans-serif;
 	font-style: normal;
+}
+
+.header__link {
 	font-weight: 600;
 	font-size: 15px;
 	line-height: 18px;
@@ -19,40 +22,30 @@
 }
 
 .main__title {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 90px;
 	line-height: 110px;
 }
 
 .main__text {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 18px;
 }
 
 .main__textopport {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 35px;
 	line-height: 17px;
 }
 
 .main__textopport_middle {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 10px;
 }
 
 .main__textopport_small {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: normal;
 	font-size: 12px;
 	line-height: 3px;
@@ -67,8 +60,6 @@
 }
 
 .main__textbutton, .main__button {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: bold;
 	font-size: 13px;
 	line-height: 16px;
@@ -140,8 +131,6 @@
 }
 
 .main__subtitle {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 70px;
 	line-height: 85px;
@@ -149,8 +138,6 @@
 }
 
 .main__subsubtitle {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 30px;
 	line-height: 37px;
@@ -158,16 +145,12 @@
 }
 
 .main__textdis {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 18px;
 	color: #FFFFFF;
 }
 .main__tabletext, .main__tabletext_small, .main__textsafety, .main__textsafety_small {
-	font-family: 'Montserrat', sans-serif;
-	font-style: normal;
 	font-weight: bold;
 	font-size: 17px;
 	line-height: 21px;
