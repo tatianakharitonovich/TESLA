@@ -197,45 +197,45 @@ body {
 
 .main__section_dis {
 	width: 30.56%;
-	height: 900px;
 	background-color: #E51937;
 }
 
 .main__subsubtitle {
-	margin-top: 51px;
-	margin-left: 52px;
-	margin-bottom: 11px;
+	margin: 51px 0 11px 52px;
 }
 
 .main__textdis {
-	margin-top: 11px;
-	margin-left: 52px;
-	margin-right: 72px;
-}	
+	margin: 11px 72px 65px 52px;
+}
+
+.main__textopport_white {
+	margin: 20px 0 20px 0;
+}
 
 .main__disdisplay, .main__wifi, .main__cargospace, .main__order {
 	transform: translateX(52px);
+	width: 75%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 }
 
-.main__disdisplay {
-	width: 42.5%;
+.main__imgdisplay, .main__imgwifi, .main__imgcargospace {
+	padding-right: 20px;
 }
 
-.main__wifi {
-	width: 53.86%;
+.main__linkinfo {
+	padding: 0 22px 0 5px;
 }
 
 .main__cargospace {
-	width: 45.9%;
+	padding-bottom: 140px;
+
 }
 
 .main__order {
-	width: 78.86%;
-	transform: translate(52px, 140px);
+	padding-bottom: 64px;
 }
 
 .main__button_white {
@@ -250,6 +250,7 @@ body {
 
 .main__section_end {
 	width: 100%;
+	transform: translateY(37px);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -258,50 +259,60 @@ body {
 
 .main__section_end_dis {
 	width: 30.5%;
-	height: 900px;
 	background-color: #E51937;
+}
+
+.main__blockimg_end {
+	width: 69.44%;
 }
 
 .main__tablecontent {
 	transform: translateX(56px);
 }
 
+.main__stars {
+	display: block;
+	padding-left: 20px;
+}
+
 .main__tablecontent {
-	width: 66.14%;
+	width: 75%;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 }
 
+.main__blockdis_end {
+	padding-bottom: 40px;
+}
+
 .main__imgstar {
-	padding-top: 4px;
-	padding-bottom: 4px; 
+	padding: 4px 0 4px 0;
+}
+
+.main__imgsafety {
+	padding-right: 23px;
 }
 
 .main__safety {
-	width: 63.63%;
 	display: flex;
+	padding-bottom: 10px;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	transform: translateX(66px);
 }
 
-.main__order_end {
-	transform: translate(38px, 60px);
-}
-
 .main__blockimg_end {
 	width: 69.5%;
-	/*height: 900px;*/
 	background-image: url(img/ModelS.png);
 	background-size: 81%;
 	background-repeat: no-repeat;
-	background-position: 189px 97px;
+	background-position: 189px 10px;
 }
 
 .main__imgcarframe {
-	transform: translateX(-95px);
+	transform: translate(-95px, 17px);
 }
 
