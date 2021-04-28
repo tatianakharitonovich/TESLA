@@ -152,7 +152,7 @@ body {
 	border: 2px solid #E51937;
 }
 
-.main__button:hover, .main__buttondown:hover, .main__linkinfo:hover {
+.main__button:hover, .main__buttondown:hover, .main__info:hover {
 	transform: scale(1.1);
 }
 
@@ -177,7 +177,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: flex-end; 
+	align-items: flex-end;
+	overflow: hidden; 
 }
 
 .main__blockimg_middle {
@@ -218,10 +219,14 @@ body {
 
 .main__disdisplay, .main__wifi, .main__cargospace, .main__order {
 	transform: translateX(52px);
-	width: 75%;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	align-items: center;
+}
+
+.main__info {
+	display: flex;
 	align-items: center;
 }
 
