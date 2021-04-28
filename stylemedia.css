@@ -14,7 +14,7 @@
 
 	.header__nav_add {
 		justify-content: flex-end;
-	}	
+	}
 }	
 
 @media (max-width: 375px) {
@@ -98,6 +98,7 @@
 
 	.main__imgdashboard_ip {
 		display: block;
+		width: 100%;
 	}
 
 	.main__section_dis {
@@ -265,6 +266,15 @@
 		padding: 16px 62px;
 		border-style: solid #E51937;
 	}
+
+	.main__imgcarframe {
+		display: none;
+	}
+
+	.main__imgcarframe_ip {
+		display: block;
+		width: 95%;
+	}	
 }
 
 @media (max-width: 720px) {
@@ -340,6 +350,7 @@
 
 	.main__imgdashboard_mob {
 		display: block;
+		width: 100%;
 	}
 
 	.main__textabout {
