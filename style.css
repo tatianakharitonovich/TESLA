@@ -16,7 +16,7 @@ body {
 }
 
 .header__nav {
-	width: 36.5%;
+	width: 45%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -40,17 +40,11 @@ body {
 .header__link:hover::before {
 	content: '';
 	position: absolute;
-	left: 1px;
+	left: 0px;
 	bottom: -10px;
-	background-image: url(img/Vector1.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 2px;
-}
-
-.header__link_size {
-	transform: translateX(20px);
+	width: 95%;
+	border: 3px solid transparent;
+	border-top: 2.5px solid #E51937;
 }
 
 .header__nav_add {
