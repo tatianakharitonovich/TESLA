@@ -29,6 +29,8 @@ body {
 	
 .header__link {
 	position: relative;
+	color: #000000;
+	text-decoration: none;
 }
 
 .header__link:hover {
@@ -94,6 +96,7 @@ body {
 
 .main__imgcar {
 	transform: translateX(199px);
+	width: 67.22%;
 }
 
 .main__bottomsec {
@@ -183,6 +186,7 @@ body {
 
 .main__imgdashboard {
 	display: block;
+	width: 127%;
 }
 
 .main__imgdashboard_ip, .main__imgdashboard_mob {
@@ -255,6 +259,7 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	overflow: hidden;
 }
 
 .main__section_end_dis {
@@ -314,5 +319,12 @@ body {
 
 .main__imgcarframe {
 	transform: translate(-95px, 17px);
+	width: 105%;
 }
+
+.main__imgcarframe_ip {
+	display: none;
+}
+
+
 
