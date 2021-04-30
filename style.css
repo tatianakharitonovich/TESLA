@@ -5,6 +5,22 @@ body {
 	position: relative;
 }
 
+body::-webkit-scrollbar {
+	width: 13px;
+}
+
+body::-webkit-scrollbar-track {
+	background-image: url(img/Tesla-Wordmark-Red-scrollbar.png);
+	background-size: contain;
+	background-repeat: space;
+	border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: #E51937;
+	border-radius: 20px;
+}
+
 .header {
 	width: 93%;
 	height: 100px;
