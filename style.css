@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	max-width: 1440px;
+	max-width: 2200px;
 	min-width: 375px;
 	margin: auto;
 	position: relative;
@@ -164,6 +164,7 @@ body::-webkit-scrollbar-thumb {
 	background-color: transparent;
 	padding: 9px 41px;
 	border: 2px solid #E51937;
+	outline: none;
 }
 
 .main__button:hover, .main__buttondown:hover, .main__info:hover {
@@ -201,7 +202,7 @@ body::-webkit-scrollbar-thumb {
 
 .main__imgdashboard {
 	display: block;
-	width: 127%;
+	width: 100%;
 }
 
 .main__imgdashboard_ip, .main__imgdashboard_mob {
@@ -224,7 +225,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main__textdis {
-	margin: 11px 72px 65px 52px;
+	margin: 11px 72px 200px 52px;
 }
 
 .main__textopport_white {
