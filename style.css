@@ -35,12 +35,18 @@ body::-webkit-scrollbar-thumb {
 	align-items: center;
 }
 
+.header__nav_general {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
 .header__nav {
 	width: 45%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	transform: translateX(18.5px);
 }
 
 .header__link, .header__link_img {
@@ -78,6 +84,10 @@ body::-webkit-scrollbar-thumb {
 	transform: scale(1.3);
 }
 
+.header__link_img_ip {
+	display: none;
+}
+
 /*Section First*/
 
 .main__blockimg {
@@ -104,12 +114,11 @@ body::-webkit-scrollbar-thumb {
 }
 	
 .main__text {
-	transform: translateY(-9px);
 	padding-bottom: 17px;
 }
 
 .main__imgcar {
-	transform: translateX(199px);
+	padding-left: 199px;
 	width: 67.22%;
 }
 
