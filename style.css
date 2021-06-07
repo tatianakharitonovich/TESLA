@@ -35,7 +35,7 @@ body::-webkit-scrollbar-thumb {
 	align-items: center;
 }
 
-.header__nav_general {
+.header__blocknav {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -84,7 +84,7 @@ body::-webkit-scrollbar-thumb {
 	transform: scale(1.3);
 }
 
-.header__link_img_ip {
+.header__link_img_ip, .header__link_imgclose {
 	display: none;
 }
 
