@@ -16,7 +16,7 @@
 		height: 22px;
 	}
 
-	.header__nav_general {
+	.header__blocknav {
 		justify-content: space-between;
 	}
 
@@ -55,6 +55,12 @@
 		flex-direction: column;
 		align-items: flex-end;
 		top: 30px;
+	}
+
+	.header__link_imgclose_click {
+		display: block;
+		transform: rotate(90deg);
+		padding: 10px;
 	}
 }	
 
