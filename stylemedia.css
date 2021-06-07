@@ -86,7 +86,11 @@
 
 	.header__link_click {
 		font-size: 15px;
-	}	
+	}
+
+	.header__blocknav_click {
+		top: 7px;
+	}
 }
 
 @media (max-width: 1920px) {
