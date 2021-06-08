@@ -1,13 +1,10 @@
 let burger = document.querySelector('.header__link_img_ip');
-console.log(burger);
 
 let burgerClose = document.querySelector('.header__link_imgclose');
 
 let navLink = document.querySelectorAll('.header__link');
-console.log(navLink);
 
 let blockNav = document.querySelector('.header__blocknav');
-console.log(blockNav);
 
 burger.addEventListener('click', ()=> {
 	burger.classList.toggle ('header__link_img_click'); 
