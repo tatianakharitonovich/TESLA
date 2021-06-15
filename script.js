@@ -6,6 +6,15 @@ let navLink = document.querySelectorAll('.header__link');
 
 let blockNav = document.querySelector('.header__blocknav');
 
+let preloader = document.querySelector('.windows8');
+console.log(preloader);
+
+let load = new Promise ((resolve, reject)=> {
+	setTimeout(()=> document.readyState || document.body.readyState=='complete' ? resolve() : reject (), 500);
+});
+
+load.then(()=> preloader.classList.toggle('windows8_load'));
+
 burger.addEventListener('click', ()=> {
 	burger.classList.toggle ('header__link_img_click'); 
 	navLink.forEach (item => item.classList.toggle ('header__link_click'));
