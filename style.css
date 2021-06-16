@@ -2,6 +2,7 @@ html {
 	scroll-behavior: smooth;
 }
 
+
 body {
 	max-width: 2200px;
 	min-width: 375px;
@@ -380,10 +381,10 @@ body::-webkit-scrollbar-thumb {
 	width: 93%;
 	height: 100px;
 	transform: translateX(42px);
-	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	display: none;
 }
 
 .header__blocknav {
@@ -440,6 +441,10 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*Section First*/
+
+.main {
+	display: none;
+}
 
 .main__blockimg {
 	background-image: url(img/Tesla-Wordmark-Red.png);
