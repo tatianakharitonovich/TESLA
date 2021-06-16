@@ -7,13 +7,20 @@ let navLink = document.querySelectorAll('.header__link');
 let blockNav = document.querySelector('.header__blocknav');
 
 let preloader = document.querySelector('.windows8');
-console.log(preloader);
+
+let header = document.querySelector('.header');
+
+let main = document.querySelector('.main');
 
 let load = new Promise ((resolve, reject)=> {
-	setTimeout(()=> document.readyState || document.body.readyState=='complete' ? resolve() : reject (), 500);
+	setTimeout(()=> document.readyState || document.body.readyState=='complete' ? resolve() : reject (), 2000);
 });
 
-load.then(()=> preloader.classList.toggle('windows8_load'));
+load.then(()=> {
+	preloader.classList.toggle('windows8_load');
+	header.style.display = 'flex';
+	main.style.display = 'block';
+});
 
 burger.addEventListener('click', ()=> {
 	burger.classList.toggle ('header__link_img_click'); 
